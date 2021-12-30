@@ -1,0 +1,6 @@
+.header__lang-link {
+  margin: 0;
+}
+.header__lang-link:nth-child(1) {
+  margin-right: 18px;
+}
