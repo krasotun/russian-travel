@@ -15,6 +15,8 @@
 
 @import "../blocks/places/places.css";
 @import "../blocks/place/place.css";
+@import "../blocks/place/__text-container/place__text-container.css";
+
 @import "../blocks/website/website.css";
 @import "../blocks/cover/cover.css";
 @import "../blocks/footer/footer.css";
