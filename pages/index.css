@@ -22,6 +22,8 @@
 @import "../blocks/footer/footer.css";
 @import "../blocks/logo/logo.css";
 @import "../blocks/navigation/navigation.css";
+@import "../blocks/navigation/_place/navigation_place-footer.css";
+
 @import "../blocks/header/__lang-link/header__lang-link.css";
 @import "../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css";
 
@@ -46,9 +48,9 @@
 @import "../blocks/navigation/__list-item/navigation__list-item.css";
 @import "../blocks/navigation/__link/navigation__link.css";
 
-* {
+/* * {
   outline: 1px red solid;
-}
+} */
 .page {
   max-width: 1280px;
   margin: 0 auto;
