@@ -6,3 +6,9 @@
   margin: 0;
   grid-area: title;
 }
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}

@@ -3,16 +3,13 @@
   padding: 0 148px;
 }
 
+@media screen and (max-width: 768px) {
+  .places {
+    margin-top: 68px;
+  }
+}
 @media screen and (max-width: 320px) {
   .places {
     margin-top: 64px;
-    padding: 0 16px;
-    grid-template-columns: 288px;
-    grid-template-rows: repeat(1, auto);
-    grid-template-areas:
-      "title"
-      "web"
-      "image"
-      "text";
   }
 }
