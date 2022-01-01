@@ -7,3 +7,11 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 16px auto 0 auto;
+  }
+}
