@@ -2,14 +2,22 @@
   margin-top: 92px;
   padding: 0 148px;
 }
+@media screen and (max-width: 1024px) {
+  .places {
+    margin-top: 68px;
+    padding: 0 48px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .places {
     margin-top: 68px;
+    padding: 0 24px;
   }
 }
 @media screen and (max-width: 320px) {
   .places {
     margin-top: 64px;
+    padding: 0 16px;
   }
 }

@@ -3,3 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .navigation__list {
+    flex-direction: row;
+    /*   flex-wrap: wrap; */
+  }
+}

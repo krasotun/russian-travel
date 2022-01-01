@@ -3,3 +3,9 @@
   align-items: center;
   padding: 92px 48px 24px 48px;
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: row;
+  }
+}

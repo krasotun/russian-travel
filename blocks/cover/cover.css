@@ -1,10 +1,12 @@
 .cover {
+  margin: 92px 48px 0 48px;
   position: relative;
   min-height: 740px;
   overflow: hidden;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 .cover::after {
   content: " ";
@@ -24,4 +26,10 @@
 
 .cover:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin: 92px 0 0 0;
+  }
 }
