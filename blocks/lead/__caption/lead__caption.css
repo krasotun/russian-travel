@@ -8,10 +8,16 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin: 16px auto auto 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__caption {
     font-size: 16px;
     line-height: 1.25;
-    margin: 16px auto 0 auto;
+    margin: 16px auto auto 18px;
   }
 }
