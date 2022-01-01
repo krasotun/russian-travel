@@ -1,14 +1,14 @@
 .photo-grid {
   margin-top: 92px;
   gap: 16px;
-  padding-right: 48px;
-  padding-left: 48px;
+  padding: 0 48px;
   grid-template-columns: repeat(4, auto);
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
     gap: 14px;
+
     grid-template-columns: repeat(3, auto);
   }
 }
@@ -16,11 +16,13 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(2, auto);
+    padding: 0 24px;
   }
 }
 @media screen and (max-width: 320px) {
   .photo-grid {
     gap: 12px;
+    padding: 0 16px;
     grid-template-columns: repeat(1, auto);
   }
 }
