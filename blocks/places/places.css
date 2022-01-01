@@ -2,3 +2,17 @@
   margin-top: 92px;
   padding: 0 148px;
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin-top: 64px;
+    padding: 0 16px;
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas:
+      "title"
+      "web"
+      "image"
+      "text";
+  }
+}

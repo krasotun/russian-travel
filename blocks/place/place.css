@@ -8,3 +8,16 @@
     "title web"
     "image text";
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    margin-top: 50px;
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas:
+      "title"
+      "web"
+      "image"
+      "text";
+  }
+}
