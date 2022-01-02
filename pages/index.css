@@ -20,6 +20,8 @@
 
 @import "../blocks/website/website.css";
 @import "../blocks/cover/cover.css";
+@import "../blocks/cover/__link/cover__link.css";
+
 @import "../blocks/footer/footer.css";
 @import "../blocks/logo/logo.css";
 @import "../blocks/navigation/navigation.css";
