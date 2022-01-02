@@ -7,4 +7,16 @@
   max-width: 560px;
   text-align: center;
   z-index: 2;
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 250px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0;
+    top: 50%;
+  }
 }

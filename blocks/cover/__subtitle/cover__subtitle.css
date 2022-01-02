@@ -5,4 +5,14 @@
   text-align: center;
   z-index: 2;
   max-width: 360px;
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    margin-top: 16px;
+    max-width: 230px;
+  }
 }
