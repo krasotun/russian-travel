@@ -1,6 +1,7 @@
 @import "/vendor/normalize.css";
 @import "/fonts/fonts.css";
 
+@import "../blocks/page/page.css";
 @import "../blocks/flex/flex.css";
 @import "../blocks/grid/grid.css";
 
@@ -47,14 +48,3 @@
 @import "../blocks/navigation/__list/navigation__list.css";
 @import "../blocks/navigation/__list-item/navigation__list-item.css";
 @import "../blocks/navigation/__link/navigation__link.css";
-
-/* * {
-  outline: 1px red solid;
-} */
-.page {
-  max-width: 1280px;
-  margin: 0 auto;
-  font-family: Inter;
-  background-color: #2a2c2f;
-  color: white;
-}
