@@ -10,11 +10,13 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+    gap: 32px;
     grid-template-columns: 440px 456px;
   }
 }
 @media screen and (max-width: 768px) {
   .place {
+    gap: 28px;
     grid-template-columns: 340px 352px;
   }
 }
