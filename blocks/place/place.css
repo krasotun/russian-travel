@@ -1,6 +1,7 @@
 .place {
   margin-top: 80px;
-  grid-template-columns: 460px 484px;
+  /* grid-template-columns: 460px 484px; */
+  grid-template-columns: 49% 50%;
   grid-template-rows: repeat(2, auto);
   gap: 40px;
   grid-template-areas:
@@ -11,20 +12,21 @@
 @media screen and (max-width: 1024px) {
   .place {
     gap: 32px;
-    grid-template-columns: 440px 456px;
+    /* grid-template-columns: 440px 456px; */
   }
 }
 @media screen and (max-width: 768px) {
   .place {
     gap: 28px;
-    grid-template-columns: 340px 352px;
+    /* grid-template-columns: 340px 352px; */
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
     margin-top: 50px;
-    grid-template-columns: 288px;
+    /* grid-template-columns: 288px; */
+    grid-template-columns: 100%;
     grid-template-rows: repeat(1, auto);
     grid-template-areas:
       "title"
