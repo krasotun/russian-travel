@@ -4,3 +4,14 @@
 .navigation__list-item:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .navigation__list-item {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navigation__list-item:last-child {
+    margin-bottom: 0;
+  }
+}
