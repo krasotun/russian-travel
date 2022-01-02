@@ -1,7 +1,7 @@
 .place {
-  /* grid-template-columns: repeat(2, auto); */
   margin-top: 80px;
   grid-template-columns: 460px 484px;
+
   grid-template-rows: repeat(2, auto);
   gap: 40px;
   grid-template-areas:
@@ -12,11 +12,13 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 456px;
+    grid-template-columns: 440px fit-content;
   }
 }
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 352px;
+    grid-template-columns: 340px fit-content;
   }
 }
 
