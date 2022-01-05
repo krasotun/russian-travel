@@ -28,6 +28,7 @@
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 92px 0 0 0;
+
   }
 }
 
@@ -37,10 +38,19 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .cover {
+    margin: 75px 0 0 0;
+    min-height: 255px;
+    width: 425px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .cover {
     margin: 66px 0 0 0;
-    min-height: 200px;
+    min-height: 192px;
     width: 320px;
   }
 }

@@ -10,10 +10,18 @@
   position: relative;
 }
 
+@media screen and (max-width: 425px) {
+  .cover__title {
+    max-width: 270px;
+    font-size: 40px;
+    line-height: 1.09;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 250px;
     font-size: 32px;
-    line-height: 1.09;
+
   }
 }
