@@ -5,10 +5,10 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .footer {
     flex-direction: column;
     align-items: flex-start;
-    padding: 64px 0 0 16px;
+    padding: 64px 0 24px 16px;
   }
 }

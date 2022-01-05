@@ -1,16 +1,18 @@
 .navigation__list-item {
   margin-right: 18px;
 }
+
 .navigation__list-item:last-child {
   margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .navigation__list-item {
     margin-bottom: 32px;
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 425px) {
   .navigation__list-item:last-child {
     margin-bottom: 0;
   }
