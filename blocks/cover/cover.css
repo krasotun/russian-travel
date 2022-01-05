@@ -41,12 +41,6 @@
   .cover {
     margin: 66px 0 0 0;
     min-height: 200px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover::after {
     width: 320px;
-    min-height: 200px;
   }
 }
