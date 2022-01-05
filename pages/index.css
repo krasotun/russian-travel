@@ -23,10 +23,10 @@
 @import "../blocks/footer/footer.css";
 @import "../blocks/logo/logo.css";
 @import "../blocks/navigation/navigation.css";
-@import "../blocks/navigation/_place/navigation_place-footer.css";
+
 
 @import "../blocks/header/__lang-link/header__lang-link.css";
-@import "../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css";
+@import "../blocks/header/__lang-link/_selected/header__lang-link_selected.css";
 
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
@@ -36,6 +36,7 @@
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
 @import "../blocks/intro/__list-item/intro__list-item.css";
+@import "../blocks/intro/__list-item/_bold/intro__list-item_bold.css";
 @import "../blocks/photo-grid/__list-item/photo-grid__list-item.css";
 @import "../blocks/place/__title/place__title.css";
 @import "../blocks/place/__image/place__image.css";
