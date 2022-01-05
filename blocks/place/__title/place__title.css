@@ -5,6 +5,7 @@
   line-height: 1.06;
   margin: 0;
   grid-area: title;
+  align-self: end;
 }
 
 @media screen and (max-width: 768px) {

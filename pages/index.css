@@ -50,6 +50,11 @@
 @import "../blocks/navigation/__list-item/navigation__list-item.css";
 @import "../blocks/navigation/__link/navigation__link.css";
 
+
+* {
+  outline: 1px blue solid;
+}
+
 @font-face {
   font-family: "Inter";
   font-style: normal;

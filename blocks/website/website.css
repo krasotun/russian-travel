@@ -1,3 +1,4 @@
 .website {
   grid-area: web;
+  align-self: end;
 }
