@@ -6,6 +6,8 @@
   line-height: 1.06;
   max-width: 560px;
   text-align: center;
+  z-index: 3;
+
 }
 
 @media screen and (max-width: 425px) {
