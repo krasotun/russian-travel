@@ -1,7 +1,7 @@
 @import "../vendor/normalize.css";
 @import "../blocks/page/page.css";
 @import "../fonts/fonts.css";
-@import "../blocks/wrapper/wrapper.css";
+
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__link-container/header__link-container.css";
