@@ -29,6 +29,10 @@
   opacity: 0.3;
 }
 
+.cover:hover::after {
+  opacity: .8;
+}
+
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 92px 0 0 0;
