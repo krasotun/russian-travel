@@ -44,7 +44,7 @@
   .cover {
     margin: 75px 0 0 0;
     min-height: 255px;
-    width: 425px;
+
   }
 }
 
@@ -53,6 +53,6 @@
   .cover {
     margin: 66px 0 0 0;
     min-height: 200px;
-    width: 320px;
+
   }
 }
