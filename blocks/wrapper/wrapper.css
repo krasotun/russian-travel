@@ -1,10 +1,10 @@
-.cover__link {
+.wrapper {
   text-decoration: none;
   color: white;
   display: block;
   margin: 0;
 }
 
-.cover__link:hover {
+.wrapper:hover {
   opacity: 0.8;
 }
