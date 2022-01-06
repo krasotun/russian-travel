@@ -1,7 +1,6 @@
 @import "../vendor/normalize.css";
 @import "../blocks/page/page.css";
-@import "../blocks/flex/flex.css";
-@import "../blocks/grid/grid.css";
+@import "../fonts/fonts.css";
 
 @import "../blocks/header/header.css";
 @import "../blocks/header/__link-container/header__link-container.css";
@@ -58,33 +57,3 @@
 @import "../blocks/navigation/__list/navigation__list.css";
 @import "../blocks/navigation/__list-item/navigation__list-item.css";
 @import "../blocks/navigation/__link/navigation__link.css";
-
-
-
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(../fonts/Inter-Black.woff2) format("woff2"),
-    url(../fonts/Inter-Black.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../fonts/Inter-Bold.woff2) format("woff2"),
-    url(../fonts/Inter-Bold.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(../fonts/Inter-Regular.woff2) format("woff2"),
-    url(../fonts/Inter-Regular.woff) format("woff");
-}
