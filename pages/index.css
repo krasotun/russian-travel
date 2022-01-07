@@ -28,7 +28,7 @@
 
 
 @import "../blocks/cover/cover.css";
-@import "../blocks/cover/__link/cover__link.css";
+
 
 @import "../blocks/footer/footer.css";
 @import "../blocks/logo/logo.css";
@@ -48,9 +48,6 @@
 @import "../blocks/intro/__list-item/intro__list-item.css";
 @import "../blocks/intro/__list-item/_bold/intro__list-item_bold.css";
 @import "../blocks/photo-grid/__list-item/photo-grid__list-item.css";
-
-@import "../blocks/website/__url-heading/website__url-heading.css";
-@import "../blocks/website/__link/website__link.css";
 
 @import "../blocks/cover/__title/cover__title.css";
 @import "../blocks/cover/__subtitle/cover__subtitle.css";
