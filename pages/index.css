@@ -7,6 +7,8 @@
 @import "../blocks/header/__link-container/header__link-container.css";
 
 @import "../blocks/lead/lead.css";
+@import "../blocks/intro/__list-text/intro__list-text.css";
+@import "../blocks/intro/__list-digit/intro__list-digit.css";
 @import "../blocks/intro/intro.css";
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__list/photo-grid__list.css";
@@ -46,7 +48,7 @@
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
 @import "../blocks/intro/__list-item/intro__list-item.css";
-@import "../blocks/intro/__list-item/_bold/intro__list-item_bold.css";
+
 @import "../blocks/photo-grid/__list-item/photo-grid__list-item.css";
 
 @import "../blocks/cover/__title/cover__title.css";
