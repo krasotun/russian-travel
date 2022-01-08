@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, auto);
-  gap: 40px;
+  gap: 48px 40px;
   grid-template-areas:
     "title web"
     "image text";
@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    gap: 32px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     margin-top: 73px;
-    gap: 28px;
+    gap: 48px 28px;
   }
 }
 
