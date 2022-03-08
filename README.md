@@ -16,3 +16,5 @@
 ### Выполнил: Ибрагимов Марат.
   [Макет](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
   [Деплой](https://krasotun.github.io/russian-travel/)
+
+![Russian Travel](https://user-images.githubusercontent.com/88790010/157278220-6e71065b-2ccc-4ca8-876c-e056bd7f9559.jpg)
